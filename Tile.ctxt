@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Tile
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Tile\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Tile()
+comment2.params=value\ score
+comment2.target=Tile(int,\ int)
+comment3.params=
+comment3.target=int\ getScore()
+comment4.params=score
+comment4.target=void\ setScore(int)
+comment5.params=
+comment5.target=int\ getValue()
+comment6.params=value
+comment6.target=void\ setValue(int)
+numComments=7

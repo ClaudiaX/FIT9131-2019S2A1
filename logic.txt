@@ -1,0 +1,69 @@
+1.set name
+2.start game
+3. help menu
+4. exit
+
+case 2:
+if(!name){
+    error message;
+} else {
+    // start game
+
+    // set round(1-10)
+    players.roundsWon =0
+
+    round = user choice;
+
+
+    for(int i=0;i<round;i++){
+       //  start each round
+       1.initialize tiles & score
+       2. first player
+       3. play
+       if(computer = 1){
+           computer choose - display message
+           if(>= 21){
+               game over, display over message
+           }else{
+               user choose - display message
+               if(total >= 21){
+                   game over, display over message
+               }
+           }
+       }else{ // user - 1
+            user choose - display message
+            if(total >= 21){
+                game over
+            }else {
+                computer choose -display message
+                if(total >= 21){
+                    game over
+                }
+            }
+       }
+
+
+       
+
+    }
+
+    // all round finish
+    display winner
+
+
+}
+
+public void computerChose(){
+    // computer logic
+}
+public void playerchoose(){
+    display message:pls choose from tiles:
+    user input
+    set last tile = XXXX
+}
+publi void gameOver(){
+    display over message
+    check 5? -3
+    higher score - winner - +5
+    winner -wonRound +1
+}
